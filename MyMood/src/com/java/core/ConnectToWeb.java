@@ -40,6 +40,7 @@ public class ConnectToWeb {
 			        try {
 				        URL site = new URL(url);
 				        URLConnection yc = site.openConnection();
+				        System.out.println("Ã¿–¿“ ÀŒ’");
 				        BufferedReader in = new BufferedReader(new InputStreamReader(
 				                yc.getInputStream()));
 				        String inputLine;	        
