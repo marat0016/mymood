@@ -47,7 +47,7 @@ public class MainActivity extends Activity {
 			  catsList[i] = iter.next()[1];
 			  i++;
 		  } 
-	
+		  System.out.println("Hello");
 		  ArrayAdapter<String> mAdapter = new ArrayAdapter<String>(this,
 		  android.R.layout.simple_list_item_1, catsList);
 		  mListView.setAdapter(mAdapter);
